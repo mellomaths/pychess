@@ -83,6 +83,8 @@ class Board():
         #     # To implement "take" action
         #     return False
 
+        # To implement "block" when a piece is in the way
+
         return True
 
     def move_piece(self, piece: Piece, x: int, y: int) -> bool:

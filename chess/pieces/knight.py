@@ -17,11 +17,6 @@ class Knight(Piece):
         if new_position == self.position:
             return False
 
-        # x + 1 ou x - 1 => y + 2 ou y - 2
-        # y + 1 ou y - 1 => x + 2 ou x - 2
-        # x + 2 ou x - 2 => y + 1 ou y - 1
-        # y + 2 ou y - 2 => x + 1 ou x - 1
-
         current_x, current_y = self.position
         return (((current_x + 1 == x or current_x - 1 == x) and
                  (current_y + 2 == y or current_y - 2 == y))

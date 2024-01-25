@@ -27,3 +27,11 @@ if __name__ == "__main__":
     knight = chess.board.get_piece_in_place(2, 2)
     chess.board.move_piece(piece=knight, x=3, y=4)
     chess.show_board()
+
+    bishop = chess.board.get_piece_in_place(7, 2)
+    chess.board.move_piece(piece=bishop, x=3, y=6)
+    chess.show_board()
+
+    queen = chess.board.get_piece_in_place(0, 3)
+    chess.board.move_piece(piece=queen, x=3, y=6)
+    chess.show_board()

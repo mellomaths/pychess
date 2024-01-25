@@ -22,7 +22,7 @@ class Pawn(Piece):
             return False
 
         is_first_move = self.spawn[0] + 2 == new_position[
-            0] or self.spawn[0] - 2 == new_position[0]
+            0] or self.spawn[0] - 2 == new_position[0]    
         is_any_move = self.position[0] + 1 == new_position[
             0] or self.position[0] - 1 == new_position[0]
 
